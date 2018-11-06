@@ -9,4 +9,170 @@
 /*css phần 5*/
 /*css phần 6*/
 /*css phần 7*/
-
+.container .footer{
+	width: 100%;
+	height: 400px;
+	background: black;
+}
+.container .footer .box1{
+	width: 100%;
+	height: 70px;
+	background: #3a424f;
+	position: relative;
+}
+.container .footer .box1 h3{
+	position: absolute;
+	left: 120px;
+	top:8px;
+	color: white;
+}
+.container .footer .box1 img.a{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 350px;
+	top:20px;
+}
+.container .footer .box1 img.b{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 305px;
+	top:20px;
+}
+.container .footer .box1 img.c{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 260px;
+	top:20px;
+}
+.container .footer .box1 img.d{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 215px;
+	top:20px;
+}
+.container .footer .box1 img.e{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	right: 170px;
+	top:20px;
+}
+.container .footer .box2{
+	width: 100%;
+	height: 290px;
+	background: #2b3442;
+	position: relative;
+}
+.container .footer .box2 .hop1{
+	width: 22%;
+	height: 100%;
+	/*background: yellow;*/
+	position: absolute;
+	left: 120px;
+}
+.container .footer .box2 .hop1 img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top:60px;
+	left: 10px;
+}
+.container .footer .box2 .hop1 h2{
+	position: absolute;
+	top:35px;
+	left: 55px;
+	color: white;
+	font-size: 33px;
+	font-weight: bold;
+}
+.container .footer .box2 .hop1 p{
+	position: absolute;
+	top:100px;
+	left: 10px;
+	color: #a8a4a4;
+	font-size: 18px;
+}
+.container .footer .box2 .hop2{
+	width: 16%;
+	height: 100%;
+	/*background: red;*/
+	position: absolute;
+	left: 460px;
+}
+.container .footer .box2 .hop2 h3{
+	position: absolute;
+	top:55px;
+	color: white;
+}
+.container .footer .box2 .hop2 p{
+	position: absolute;
+	top:110px;
+	color: #a8a4a4;
+}
+.container .footer .box2 .hop3{
+	width: 13%;
+	height: 100%;
+	/*background: cyan;*/
+	position: absolute;
+	left: 730px;
+}
+.container .footer .box2 .hop3 h3{
+	position: absolute;
+	top:55px;
+	color: white;
+}
+.container .footer .box2 .hop3 p{
+	position: absolute;
+	top:110px;
+	color: #a8a4a4;
+}
+.container .footer .box2 .hop4{
+	width: 20%;
+	height: 100%;
+	/*background: red;*/
+	position: absolute;
+	left: 930px;
+}
+.container .footer .box2 .hop4 h3{
+	position: absolute;
+	top:55px;
+	color: white;
+}
+.container .footer .box2 .hop4 p{
+	position: absolute;
+	top:110px;
+	color: #a8a4a4;
+}
+.container .footer .box2 .hop4 form{
+	position: absolute;
+	top:190px;
+	left: 0px;
+}
+.container .footer .box2 .hop4 form input{
+	width: 180px;
+	height: 40px;
+	background: #b52f26;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.container .footer .box2 .hop4 form input:hover{
+	background: #46a381;
+	color: #3e0fdb;
+}
+.container .footer .box3{
+	width: 100%;
+	height: 40px;
+	background: #151a23;
+	position: relative;
+}
+.container .footer .box3 p{
+	position: absolute;
+	top: 0px;
+	right: 150px;
+	color: #a8a4a4;
+}
