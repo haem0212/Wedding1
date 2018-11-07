@@ -1,6 +1,11 @@
 *{
+<<<<<<< HEAD
 	padding:0;
 	margin: 0;
+=======
+	margin: 0;
+	padding: 0;
+>>>>>>> 8532724e6cb996b81f4dd66f799a3d03f96c8da4
 }
 .container {
 	width: 100%;
@@ -284,6 +289,257 @@ ul.vendors li a:hover{
 }
 /*css phần 2*/
 /*css phần 3*/
+.container .slideshow{
+	clear: both;
+	width: 100%;
+	height:1100px;
+	background: #f6f5f7;
+}
+.container .slideshow .cont{
+	width: 100%;
+	height: 150px;
+	/* background: blue; */
+	position: relative;
+}
+.container .slideshow .cont h3{
+	display: block;
+	width: 60%;
+	height: 40px;
+	/* background: red; */
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	text-align: center;
+	line-height: 40px;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+.container .slideshow .cont p{
+	display: block;
+	width: 60%;
+	height: 40px;
+	/* background: cyan; */
+	text-align: center;
+	line-height: 40px;
+	color: silver;
+	font-size: 20px;
+	position: absolute;
+	left: 20%;
+	top: 58%;
+}
+.container .slideshow .col{
+	width: 100%;
+	height: 450px;
+	/* background: cyan; */
+	position: relative;
+}
+.container .slideshow .col .cols{
+	width: 25%;
+	height: 90%;
+	background: white;
+	border-radius: 3px;
+	border: 0.5px solid #999999;
+	box-sizing: border-box;
+	position: absolute;
+}
+.container .slideshow .col .cols a{
+	position: absolute;
+	display: block;
+	width: 96%;
+	height: 55%;
+	left: 2%;
+	top: 2%;
+	z-index: 1;
+	overflow: hidden;
+}
+.container .slideshow .col .cols a img.img1{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.container .slideshow .col .cols a:hover img.img1{
+	transform: scale(1.3);
+}
+.container .slideshow .col .cols img.heart{
+	z-index: 2;
+	position: absolute;
+	right: 5%;
+	top: 5%;
+}
+.container .slideshow .col .cols a.a1{
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 63%;
+	left: 7%;
+	color: black;
+	font-size: 22px;
+}
+.container .slideshow .col .cols p.p1{
+	display: block;
+	position: absolute;
+	left: 7%;
+	top: 72%;
+	color: gray;
+}
+.container .slideshow .col .cols a:hover.a1{
+	color: red;
+}
+.container .slideshow .col .cols .boxx{
+	display: block;
+	width: 33.4%;
+	height: 75px;
+	/* background: cyan; */
+	position: absolute;
+	border: 0.5px solid #999999;
+	box-sizing: border-box;
+}
+.container .slideshow .col .cols .boxx h2.h2{
+	display: block;
+	position: absolute;
+	left: 30%;
+	top: 15%;
+}
+.container .slideshow .col .cols .boxx p.p2{
+	display: block;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 55%;
+	color: silver;
+}
+.container .slideshow .col .cols .boxx .star{
+	display: block;
+	width: 80%;
+	height: 20px;
+	background-image: url('../Wedding1/img/sao.png');
+	background-size: 20px 20px;
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+.container .slideshow .col .cols .boxx1{
+	bottom: 0;
+}
+.container .slideshow .col .cols .boxx2{
+	bottom: 0;
+	left: 33.4%;
+}
+.container .slideshow .col .cols .boxx3{
+	bottom: 0;
+	right: 0;
+}
+.container .slideshow .col .col1{
+	top: 5%;
+	left: 10%;
+}
+.container .slideshow .col .col2{
+	top: 5%;
+	left: 37.5%;
+}
+.container .slideshow .col .col3{
+	top: 5%;
+	right: 10%;
+}
+.container .slideshow .col ul{
+	list-style-type: none;
+}
+.container .slideshow .col ul li{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: white;
+	/* vi trí con */
+	position: absolute;
+	border-radius: 50%;
+	border: 0.5px solid #999999;
+	z-index: 2;
+}
+.container .slideshow .col li.next{
+	bottom: 47%;
+	right: 6%;
+	background-image: url('../Wedding1/img/next3.png');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: right 15px top 15px;
+}
+.container .slideshow .col li.prev{
+	bottom: 47%;
+	left: 6%;
+	background-image: url('../Wedding1/img/next3.png');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: right 15px top 15px;
+	transform: rotate(180deg);
+}
+.container .slideshow .col ul li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-indent: -9999px;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+.container .slideshow .col ul li:hover{
+	background-color: rgba(255, 0, 255,0.5);
+}
+.container .slideshow .boximg{
+	float: left;
+	width: 14.4%;
+	height: 140px;
+	overflow: hidden;
+	background: cyan;
+	margin-left: 2%;
+	margin-top: 2%;
+	position: relative;
+	border-radius: 4px;
+}
+.container .slideshow .boximg a.imgboximg img{
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	transition: all 0.3s ease;
+}
+.container .slideshow .boximg a:hover.imgboximg img{
+	transform: scale(1.3);
+}
+.container .slideshow .boximg a.acont{
+	z-index: 4;
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	font-weight: bold;
+}
+.container .slideshow .boximg a:hover.acont{
+	color: red;
+}
+.container .slideshow .view a.viewall{
+	clear: both;
+	display: inline-block;
+	text-decoration: none;
+	height: 45px;
+	width: 15%;
+	background: #e93c3c;
+	border-radius: 3px;
+	line-height: 45px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5%;
+	margin-left: 42.5%;
+	margin-bottom: 2.9%;
+}
+.container .slideshow .line{
+	display: inline-block;
+	width: 70%;
+	height: 0.5px;
+	background: gray;
+	margin-left: 15%;
+}
 /*css phần 4*/
 /*css phần 5*/
 /*css phần 6*/
