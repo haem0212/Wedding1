@@ -1,113 +1,14 @@
 *{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 	padding:0;
 	margin: 0;
-=======
-	margin: 0;
-	padding: 0;
->>>>>>> 8532724e6cb996b81f4dd66f799a3d03f96c8da4
-=======
-	margin: 0;
-	padding: 0;
->>>>>>> 64a223679bd3805b43847705d455e739c2ed9e1a
-=======
-	padding: 0;
-	margin: 0;
->>>>>>> 2f04b5354d275b12d6947bbcd78d9f6ea752d4f5
 }
 .container {
 	width: 100%;
 	height:1600px;
-<<<<<<< HEAD
 	position: relative;
 }
 .container a{
 	color: black;
-=======
-	background: gray;
-}
-.container .coke{
-	position: relative;
-	width: 100%;
-	height: 600px;
-	background: #f9c5ef;
-}
-.container .coke h3{
-	position: absolute;
-	font-size: 20px;
-	top: 10px;
-	left: 45%;
-}
-.container .coke p{
-	position: absolute;
-	top: 40px;
-	left: 40%;
-}
-.container .coke .box1{
-	float: left;
-	position: absolute;
-	width: 17%;
-	height: 350px;
-	top: 100px;
-	left: 20%;
-	background: white;
-	position: relative;
-}
-.container .coke .box1 h1{
-	font-size: 50px;
-	position: absolute;
-	top: 10px;
-	color: red;
-	left: 45%;
-}
-.container .coke .box1 h3{
-	position: absolute;
-	top: 50px;
-	left: 50px;
-}
-.container .coke .box1 p{
-	position: absolute;
-	top: 80px;
-	left: 15px;
-	text-align: center;
-}
-.container .coke .box1 img{
-	position: absolute;
-	top: 200px;
-	left: 100px;
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-}
-.container .coke .box1 h4{
-	position: absolute;
-	top: 260px;
-	left: 80px;
-}
-.container .coke .box1 h5{
-	position: absolute;
-	top: 280px;
-	left: 87px;
-}
-.container .coke .box1 img.a{
-	position: absolute;
-	top: 290px;
-	left: 100px;
-	width: 50px;
-	height: 50px;
-}
-.container .coke .diff{
-	float: left;
-	position: absolute;
-	left: 40%;
-}
-.container .coke .diff1{
-	float: left;
-	position: absolute;
-	left: 60%;
->>>>>>> 2f04b5354d275b12d6947bbcd78d9f6ea752d4f5
 }
 /*css phần 1*/
 .container .header{
@@ -115,6 +16,7 @@
 	height: 120px;
 	position: absolute;
 	position: relative;
+	z-index: 100;
 }
 .container .header .box1{
 	width: 100%;
@@ -171,6 +73,7 @@
 }
 .container .header .box2 ul li{
 	float: left;
+	z-index: 100;
 }
 .container .header .box2 ul li.home{
 	width: 19%;
@@ -245,7 +148,8 @@
 	height: 40px;
 	list-style: none;
 	padding-left: 10px;
-	line-height: 40px;	
+	line-height: 40px;
+	background: white;	
 	border-top: 2px solid black;
 }
 .container .header .box2 ul li.Vendors ul.vendors li a{
@@ -382,6 +286,119 @@ ul.vendors li a:hover{
 	border: none;
 }
 /*css phần 2*/
+.container .linh{
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	background: pink;
+	position: relative;
+	z-index: 0;
+}
+.container .linh img{
+	width: 100%;
+	height: 100%;
+}
+.container .linh h1{
+	color: white;
+	font-size: 50px;
+	line-height: 80px;
+	position: absolute;
+	top: 150px;
+	left: 30%;
+}
+.container .linh p{
+	color: white;
+	font-size: 18px;
+	width: 45%;
+	position: absolute;
+	top: 240px;
+	left: 30%;
+	text-align: center;
+}
+.container .linh .search-form{
+	position: absolute;
+	top: -300px;
+	left: 25%;
+	width: 60%;
+	height: 50px;
+	/*background: green;*/
+	position: relative;
+}
+.container .linh .search-form form.form .form1 select.wide{
+	/*background: pink;*/
+	display: block;
+	width: 39%;
+	height: 50px;
+	color: black;
+	font-size: 18px;
+	padding: 0 15px;
+}
+.container .linh .search-form form.form .form1 select.wide option{
+    padding: 10px;
+}
+.container .linh .search-form form.form .form2 select.wide {
+	font-size: 16px;
+	width: 39%;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 40%;
+	border: none;
+	padding: 0 15px;
+}
+.container .linh .search-form form.form button{
+	color: white;
+	font-size: 16px;
+	width: 20%;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: 80%;
+	border: none;
+}
+.container .contact{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	height: 350px;
+	/*background: pink;*/
+	position: relative;
+}
+.container .contact .box{
+	float: left;
+	width: 30%;
+	height: 350px;
+	/*background: red;*/
+}
+.container .contact .diff{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.container .contact .box .icons{
+	width: 64px;
+	height: 64px;
+	/*background: green;*/
+	position: absolute;
+	top: 50px;
+}
+.container .contact .box h3{
+	font-size: 20px;
+	line-height: 40px;
+	color: black;
+	position: absolute;
+	top: 120px;
+	font-weight: 10;
+}
+.container .contact .box p{
+	color: black;
+	font-size: 16px;
+	line-height: 20px;
+	width: 30%;
+	position: absolute;
+	top: 160px;
+}
 /*css phần 3*/
 .container .slideshow{
 	clear: both;
@@ -636,6 +653,86 @@ ul.vendors li a:hover{
 }
 /*css phần 4*/
 /*css phần 5*/
+.container .coke{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: #f9c5ef;
+}
+.container .coke h3{
+	position: absolute;
+	font-size: 20px;
+	top: 10px;
+	left: 45%;
+}
+.container .coke p{
+	position: absolute;
+	top: 40px;
+	left: 40%;
+}
+.container .coke .box1{
+	float: left;
+	position: absolute;
+	width: 17%;
+	height: 350px;
+	top: 100px;
+	left: 20%;
+	background: white;
+	position: relative;
+}
+.container .coke .box1 h1{
+	font-size: 50px;
+	position: absolute;
+	top: 10px;
+	color: red;
+	left: 45%;
+}
+.container .coke .box1 h3{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.container .coke .box1 p{
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	text-align: center;
+}
+.container .coke .box1 img{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+.container .coke .box1 h4{
+	position: absolute;
+	top: 260px;
+	left: 80px;
+}
+.container .coke .box1 h5{
+	position: absolute;
+	top: 280px;
+	left: 87px;
+}
+.container .coke .box1 img.a{
+	position: absolute;
+	top: 290px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+.container .coke .diff{
+	float: left;
+	position: absolute;
+	left: 40%;
+}
+.container .coke .diff1{
+	float: left;
+	position: absolute;
+	left: 60%;
+}
 /*css phần 6*/
 .container .weddingtips{
 	width: 100%;
@@ -661,7 +758,7 @@ ul.vendors li a:hover{
 	float: left;
 	margin-top: 120px;
 	margin-left: 15px;
-	width: 362px;
+	width: 320px;
 	height: 400px;
 	/*background: gray;*/
 	position: relative;
@@ -730,7 +827,7 @@ ul.vendors li a:hover{
 	width: 90%;
 	height: 90%;
 }
-/*.container .footer .box1 img.a{
+.container .footer .box1 img.a{
 	position: absolute;
 	width: 35px;
 	height: 35px;
@@ -882,10 +979,11 @@ ul.vendors li a:hover{
 	height: 40px;
 	background: #151a23;
 	position: relative;
+	top: 300px;
 }
 .container .footer .box3 p{
 	position: absolute;
-	top: 0px;
 	right: 150px;
+	line-height: 40px;
 	color: #a8a4a4;
 }
