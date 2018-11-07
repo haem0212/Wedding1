@@ -49,13 +49,13 @@
 	width: 100%;
 	height: 70px;
 	position: absolute;
-	background: gray;
+	background:white;
 }
 .container .header .box2 img{
 	position: absolute;
-	width: 210px;
-	height: 45px;
-	top: 10px;
+	width: 200px;
+	height: 35px;
+	top: 15px;
 	left: 70px;
 }
 .container .header .box2 ul.menu{
@@ -66,7 +66,7 @@
 	height: 98%;
 	background: white;
 	left: 320px;
-	line-height:65px;
+	line-height:70px;
 	font-size: 20px;
 	list-style: none;
 	
@@ -76,7 +76,7 @@
 	z-index: 100;
 }
 .container .header .box2 ul li.home{
-	width: 19%;
+	width: 18%;
 	height: 100%;
 	margin-left: 0px;
 }
@@ -90,7 +90,7 @@
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	top: 26px;
+	top: 29px;
 	left: 100px;
 }
 .container .header .box2 ul li.home .menuC1{
@@ -117,11 +117,10 @@
 	display: block;
 }
 .container .header .box2 ul li.Vendors{
-	width: 14.5%;
+	width: 13.5%;
 	height: 100%;
 	margin-left: 0px;
 	color: black
-
 }
 .container .header .box2 ul li a:hover{
 	color: red;
@@ -130,8 +129,8 @@
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	top: 26px;
-	left: 210px;
+	top: 29px;
+	left: 200px;
 }
 .container .header .box2 ul li.Vendors ul.vendors {
 	display: none;
@@ -139,6 +138,7 @@
 	width: 200px;
 	height: 166px;
 	position: relative;
+
 }
 .container .header .box2 ul li.Vendors:hover ul.vendors{
 	display: block;
@@ -181,7 +181,7 @@
 	height: 124px;
 	background: white;
 	top: 0;
-	left: 200px;
+	left: 198px;
 }
 .box2 ul li.Vendors ul.vendors li.Listing:hover .menuCL{
 	display: block;
@@ -226,7 +226,7 @@ ul.vendors li.Listing:hover .b{
 	height: 166px;
 	background:white;
 	top: 0;
-	left: 200px;
+	left: 198px;
 }
 .box2 ul li.Vendors ul.vendors li.List-Single:hover .menuLS{
 	display: block;
@@ -260,8 +260,8 @@ ul.vendors li a:hover{
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	top: 26px;
-	left: 330px;
+	top: 29px;
+	left: 310px;
 }
 .container .header .box2 ul li.Suppliers .menuSup{
 	display: none;
@@ -284,6 +284,331 @@ ul.vendors li a:hover{
 }
 .container .header .box2 ul li.Suppliers .menuSup a.a1{
 	border: none;
+}
+.container .header .box2 ul li.Real{
+	width: 22%;
+	height: 100%;
+	margin-left: 0px;
+}
+.container .header .box2 ul li a{
+	text-decoration: none;
+}
+.container .header .box2 ul li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.Real a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 29px;
+	left: 460px;
+}
+.container .header .box2 ul li.Real .menuR{
+	display: none;
+	width: 200px;
+	height: 80px;
+	background: white;
+	z-index: 100px;
+}
+.container .header .box2 ul li.Real .menuR a{
+	display: block;
+	width: 95%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border-top: 2px solid black;
+	text-decoration: none;
+}
+.container .header .box2 ul li.Real .menuR a.p1{
+	border: none;
+}
+.container .header .box2 ul li.Real:hover .menuR {
+	display: block;
+}
+.container .header .box2 ul li.Blog{
+	width: 10%;
+	height: 100%;
+	margin-left: 0px;
+	color: black
+}
+.container .header .box2 ul li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.Blog a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 29px;
+	left: 540px;
+}
+.container .header .box2 ul li.Blog ul.blog {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 166px;
+	position: relative;
+}
+.container .header .box2 ul li.Blog:hover ul.blog{
+	display: block;
+}
+.container .header .box2 ul li.Blog ul.blog li{
+	width: 93.5%;
+	height: 40px;
+	list-style: none;
+	padding-left: 10px;
+	line-height: 40px;
+	background: white;	
+	border-top: 2px solid black;
+}
+.container .header .box2 ul li.Blog ul.blog li a{
+	color: black
+}
+.container .header .box2 ul li.Blog ul.blog li.BlogL{
+	border: none;
+}
+.container .header .box2 ul li.Blog ul.blog li.BlogL .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 22px;
+	right: 15px;
+}
+.container .header .box2 ul li.Blog ul.blog li.BlogL .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 18px;
+	right: 19px;
+}
+.box2 ul li.Blog ul.blog li.BlogL .menuB{
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 82px;
+	background: white;
+	top: 0;
+	left: 198px;
+}
+.box2 ul li.Blog ul.blog li.BlogL:hover .menuB{
+	display: block;
+}
+ul.blog li.BlogL .menuB a.a1{
+	border: none;
+}
+ul.blog li.BlogL .menuB a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.blog li.BlogL:hover .b{
+	display: none;
+}
+.container .header .box2 ul li.Blog ul.blog li.BlogS .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 62px;
+	right: 15px;
+}
+.container .header .box2 ul li.Blog ul.blog li.BlogS .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 58px;
+	right: 19px;
+}
+.box2 ul li.Blog ul.blog li.BlogS .menuBS{
+	display: none;
+	position: absolute;
+	width: 230px;
+	height: 82px;
+	background:white;
+	top: 0px;
+	left: 198px;
+}
+.box2 ul li.Blog ul.blog li.BlogS:hover .menuBS{
+	display: block;
+}
+ul.blog li.BlogS .menuBS a.a1{
+	border: none;
+}
+ul.blog li.BlogS .menuBS a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.blog li.BlogS:hover .b{
+	display: none;
+}
+ul.blog li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.User{
+	width: 21%;
+	height: 100%;
+	margin-left: 0px;
+	color: black
+}
+.container .header .box2 ul li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.User a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 29px;
+	left: 660px;
+}
+.container .header .box2 ul li.User ul.user {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 124px;
+	position: relative;
+}
+.container .header .box2 ul li.User:hover ul.user{
+	display: block;
+}
+.container .header .box2 ul li.User ul.user li{
+	width: 93.5%;
+	height: 40px;
+	list-style: none;
+	padding-left: 10px;
+	line-height: 40px;
+	background: white;	
+	border-top: 2px solid black;
+}
+.container .header .box2 ul li.User ul.user li a{
+	color: black
+}
+.container .header .box2 ul li.User ul.user li.User1{
+	border: none;
+}
+.container .header .box2 ul li.User ul.user li.User1 .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 22px;
+	right: 15px;
+}
+.container .header .box2 ul li.User ul.user li.User1 .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 18px;
+	right: 19px;
+}
+.box2 ul li.User ul.user li.User1 .menuU1{
+	display: none;
+	position: absolute;
+	width: 130px;
+	height: 82px;
+	background: white;
+	top: 0;
+	left: 198px;
+}
+.box2 ul li.User ul.user li.User1:hover .menuU1{
+	display: block;
+}
+ul.user li.User1 .menuU1 a.a1{
+	border: none;
+}
+ul.user li.User1 .menuU1 a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.user li.User1:hover .b{
+	display: none;
+}
+.container .header .box2 ul li.User ul.user li.User2 .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 62px;
+	right: 15px;
+}
+.container .header .box2 ul li.User ul.user li.User2 .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 58px;
+	right: 19px;
+}
+.box2 ul li.User ul.user li.User2 .menuBS{
+	display: none;
+	position: absolute;
+	width: 130px;
+	height: 82px;
+	background:white;
+	top: 0px;
+	left: 198px;
+}
+.box2 ul li.User ul.user li.User2:hover .menuBS{
+	display: block;
+}
+ul.user li.User2 .menuBS a.a1{
+	border: none;
+}
+ul.user li.User2 .menuBS a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.user li.User2:hover .b{
+	display: none;
+}
+ul.user li a:hover{
+	color: red;
+}
+.container .header .box2 a.Login{
+	position: absolute;
+	display: block;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background:#00ef03;
+	border-radius: 5px;
+	top: 15px;
+	right: 150px;
+}
+.container .header .box2 a.Login:hover{
+	background:#09c40c;
 }
 /*css phần 2*/
 .container .linh{
@@ -361,14 +686,14 @@ ul.vendors li a:hover{
 	position: absolute;
 	left: 10%;
 	width: 80%;
-	height: 350px;
+	height: 300px;
 	/*background: pink;*/
 	position: relative;
 }
 .container .contact .box{
 	float: left;
 	width: 30%;
-	height: 350px;
+	height: 300px;
 	/*background: red;*/
 }
 .container .contact .diff{
@@ -382,6 +707,10 @@ ul.vendors li a:hover{
 	/*background: green;*/
 	position: absolute;
 	top: 50px;
+}
+.container .contact .box .icons img {
+	width: 100%;
+	height: 100%;
 }
 .container .contact .box h3{
 	font-size: 20px;
@@ -736,7 +1065,7 @@ ul.vendors li a:hover{
 /*css phần 6*/
 .container .weddingtips{
 	width: 100%;
-	height: 490px;
+	height: 450px;
 	/*background: pink;*/
 	position: relative;
 }
@@ -758,7 +1087,7 @@ ul.vendors li a:hover{
 	float: left;
 	margin-top: 120px;
 	margin-left: 15px;
-	width: 320px;
+	width: 300px;
 	height: 400px;
 	/*background: gray;*/
 	position: relative;
@@ -766,6 +1095,10 @@ ul.vendors li a:hover{
 .container .weddingtips .photo img{
 	width: 100%;
 	height: 262px;
+	transition: 0.5s ease;
+}
+.container .weddingtips .photo img:hover{
+	transform: scale(1.01);
 }
 .container .weddingtips .photo h4{
 	font-size: 25px;
@@ -792,12 +1125,12 @@ ul.vendors li a:hover{
 /*css phần 7*/
 .container .footer{
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	background: black;
 }
 .container .footer .box1{
 	width: 100%;
-	height: 70px;
+	height: 50px;
 	background: #3a424f;
 	position: relative;
 }
@@ -806,12 +1139,14 @@ ul.vendors li a:hover{
 	left: 120px;
 	top:8px;
 	color: white;
+	line-height: 30px;
 }
 .container .footer .box1 ul{
 	position: absolute;
 	width: 200px;
 	height: 35px;
 	right: 250px;
+	top: 5px;
 }
 .container .footer .box1 ul li{
 	list-style: none;
@@ -819,7 +1154,6 @@ ul.vendors li a:hover{
 	display: block;
 	width: 40px;
 	height: 40px;
-	/*background: white;*/
 }
 .container .footer .box1 ul li a img{
 	margin-top: 5%;
@@ -855,13 +1189,10 @@ ul.vendors li a:hover{
 	right: 215px;
 	top:20px;
 }
-.container .footer .box1 img.e{
-	position: absolute;
-	width: 35px;
-	height: 35px;
-	right: 170px;
-	top:20px;
-}*/
+.container .footer .box1 ul li a img:hover{
+	background: white;
+	border-radius: 5px;
+}
 .container .footer .box2{
 	width: 100%;
 	height: 290px;
@@ -876,19 +1207,11 @@ ul.vendors li a:hover{
 	left: 120px;
 }
 .container .footer .box2 .hop1 img{
-	width: 40px;
+	width: 150px;
 	height: 40px;
 	position: absolute;
 	top:60px;
 	left: 10px;
-}
-.container .footer .box2 .hop1 h2{
-	position: absolute;
-	top:35px;
-	left: 55px;
-	color: white;
-	font-size: 33px;
-	font-weight: bold;
 }
 .container .footer .box2 .hop1 p{
 	position: absolute;
