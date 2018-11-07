@@ -1,8 +1,287 @@
+*{
+	padding:0;
+	margin: 0;
+}
 .container {
 	width: 100%;
 	height:1600px;
+	position: relative;
+}
+.container a{
+	color: black;
 }
 /*css phần 1*/
+.container .header{
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	position: relative;
+}
+.container .header .box1{
+	width: 100%;
+	height: 50px;
+	background: #ef1810;
+}
+.container .header .box1 p.p1{
+	position: absolute;
+	color: white;
+	left: 70px;
+	font-size: 15px;
+	line-height: 45px;
+}
+.container .header .box1 p.p2{
+	position: absolute;
+	color: white;
+	right: 150px;
+	font-size: 15px;
+	line-height: 45px;
+}
+.container .header .box1 a{
+	position: absolute;
+	color: white;
+	right: 30px;
+	line-height: 45px;
+	text-decoration: none;
+	font-size: 15px;
+}
+.container .header .box2{
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	background: gray;
+}
+.container .header .box2 img{
+	position: absolute;
+	width: 210px;
+	height: 45px;
+	top: 10px;
+	left: 70px;
+}
+.container .header .box2 ul.menu{
+	display: block;
+	position: absolute;
+	position: relative;
+	width: 55%;
+	height: 98%;
+	background: white;
+	left: 320px;
+	line-height:65px;
+	font-size: 20px;
+	list-style: none;
+	
+}
+.container .header .box2 ul li{
+	float: left;
+}
+.container .header .box2 ul li.home{
+	width: 19%;
+	height: 100%;
+	margin-left: 0px;
+}
+.container .header .box2 ul li a{
+	text-decoration: none;
+}
+.container .header .box2 ul li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.home a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 26px;
+	left: 100px;
+}
+.container .header .box2 ul li.home .menuC1{
+	display: none;
+	width: 200px;
+	height: 120px;
+	background: white;
+	z-index: 100px;
+
+}
+.container .header .box2 ul li.home .menuC1 a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-top: 2px solid black;
+	text-decoration: none;
+}
+.container .header .box2 ul li.home .menuC1 a.p1{
+	border: none;
+}
+.container .header .box2 ul li.home:hover .menuC1 {
+	display: block;
+}
+.container .header .box2 ul li.Vendors{
+	width: 14.5%;
+	height: 100%;
+	margin-left: 0px;
+	color: black
+
+}
+.container .header .box2 ul li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.Vendors a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 26px;
+	left: 210px;
+}
+.container .header .box2 ul li.Vendors ul.vendors {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 166px;
+	position: relative;
+}
+.container .header .box2 ul li.Vendors:hover ul.vendors{
+	display: block;
+}
+.container .header .box2 ul li.Vendors ul.vendors li{
+	width: 93.5%;
+	height: 40px;
+	list-style: none;
+	padding-left: 10px;
+	line-height: 40px;	
+	border-top: 2px solid black;
+}
+.container .header .box2 ul li.Vendors ul.vendors li a{
+	color: black
+}
+.container .header .box2 ul li.Vendors ul.vendors li.Listing{
+	border: none;
+}
+.container .header .box2 ul li.Vendors ul.vendors li.Listing .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 22px;
+	right: 15px;
+}
+.container .header .box2 ul li.Vendors ul.vendors li.Listing .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 18px;
+	right: 19px;
+}
+.box2 ul li.Vendors ul.vendors li.Listing .menuCL{
+	display: none;
+	position: absolute;
+	width: 150px;
+	height: 124px;
+	background: white;
+	top: 0;
+	left: 200px;
+}
+.box2 ul li.Vendors ul.vendors li.Listing:hover .menuCL{
+	display: block;
+}
+ul.vendors li.Listing .menuCL a.a1{
+	border: none;
+}
+ul.vendors li.Listing .menuCL a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.vendors li.Listing:hover .b{
+	display: none;
+}
+.container .header .box2 ul li.Vendors ul.vendors li.List-Single .a{
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	top: 62px;
+	right: 15px;
+}
+.container .header .box2 ul li.Vendors ul.vendors li.List-Single .b{
+	position: absolute;
+	width: 2px;
+	height: 10px;
+	background: black;
+	top: 58px;
+	right: 19px;
+}
+.box2 ul li.Vendors ul.vendors li.List-Single .menuLS{
+	display: none;
+	position: absolute;
+	width: 230px;
+	height: 166px;
+	background:white;
+	top: 0;
+	left: 200px;
+}
+.box2 ul li.Vendors ul.vendors li.List-Single:hover .menuLS{
+	display: block;
+}
+ul.vendors li.List-Single .menuLS a.a1{
+	border: none;
+}
+ul.vendors li.List-Single .menuLS a{
+	display: block;
+	width: 93.5%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: none;
+	border-top: 2px solid black;
+}
+
+ul.vendors li.List-Single:hover .b{
+	display: none;
+}
+ul.vendors li a:hover{
+	color: red;
+}
+.container .header .box2 ul li.Suppliers{
+	width: 14.5%;
+	height: 100%;
+	margin-left: 0px;
+}
+.container .header .box2 ul li.Suppliers a img{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 26px;
+	left: 330px;
+}
+.container .header .box2 ul li.Suppliers .menuSup{
+	display: none;
+	width: 200px;
+	height: 160px;
+	background: white;
+	z-index: 100px;
+}
+.container .header .box2 ul li.Suppliers:hover .menuSup{
+	display: block;
+}
+.container .header .box2 ul li.Suppliers .menuSup a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-top: 2px solid black;
+	text-decoration: none;
+}
+.container .header .box2 ul li.Suppliers .menuSup a.a1{
+	border: none;
+}
 /*css phần 2*/
 /*css phần 3*/
 /*css phần 4*/
