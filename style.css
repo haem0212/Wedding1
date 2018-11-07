@@ -1,6 +1,7 @@
 *{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	padding:0;
 	margin: 0;
 =======
@@ -11,14 +12,102 @@
 	margin: 0;
 	padding: 0;
 >>>>>>> 64a223679bd3805b43847705d455e739c2ed9e1a
+=======
+	padding: 0;
+	margin: 0;
+>>>>>>> 2f04b5354d275b12d6947bbcd78d9f6ea752d4f5
 }
 .container {
 	width: 100%;
 	height:1600px;
+<<<<<<< HEAD
 	position: relative;
 }
 .container a{
 	color: black;
+=======
+	background: gray;
+}
+.container .coke{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background: #f9c5ef;
+}
+.container .coke h3{
+	position: absolute;
+	font-size: 20px;
+	top: 10px;
+	left: 45%;
+}
+.container .coke p{
+	position: absolute;
+	top: 40px;
+	left: 40%;
+}
+.container .coke .box1{
+	float: left;
+	position: absolute;
+	width: 17%;
+	height: 350px;
+	top: 100px;
+	left: 20%;
+	background: white;
+	position: relative;
+}
+.container .coke .box1 h1{
+	font-size: 50px;
+	position: absolute;
+	top: 10px;
+	color: red;
+	left: 45%;
+}
+.container .coke .box1 h3{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.container .coke .box1 p{
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	text-align: center;
+}
+.container .coke .box1 img{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+.container .coke .box1 h4{
+	position: absolute;
+	top: 260px;
+	left: 80px;
+}
+.container .coke .box1 h5{
+	position: absolute;
+	top: 280px;
+	left: 87px;
+}
+.container .coke .box1 img.a{
+	position: absolute;
+	top: 290px;
+	left: 100px;
+	width: 50px;
+	height: 50px;
+}
+.container .coke .diff{
+	float: left;
+	position: absolute;
+	left: 40%;
+}
+.container .coke .diff1{
+	float: left;
+	position: absolute;
+	left: 60%;
+>>>>>>> 2f04b5354d275b12d6947bbcd78d9f6ea752d4f5
 }
 /*css phần 1*/
 .container .header{
